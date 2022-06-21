@@ -1,14 +1,16 @@
-const movieArray = [];
+const movieArr = [];
+//Arr is short for array
+
 
 class Movie {
-    constructor(Title, actor="No Actor Input"){
-        this.Title = Title;
+    constructor(title="Add a Movie", actor="No Actor Input"){
+        this.title = title;
         this.actor = actor;
     }
     add(){
-        movieArray.push(this);
-        console.log(movieArray)
+        movieArr.push(this);
+        console.log(movieArr)
     }
 }
 
-module.export = Movie;
+module.exports = Movie;

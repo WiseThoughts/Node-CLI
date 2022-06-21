@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/WiseThoughts/Node-CLI/issues"
   },
-  "homepage": "https://github.com/WiseThoughts/Node-CLI#readme"
+  "homepage": "https://github.com/WiseThoughts/Node-CLI#readme",
+  "dependencies": {
+    "yargs": "^17.5.1"
+  }
 }
