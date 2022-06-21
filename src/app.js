@@ -51,5 +51,25 @@ const app = () => {
 		}
 	}
 };
+app(yargsObj);
 
-app();
+//Tutor example
+// const app1 = (yargsObj)=>{
+//     try {
+//         if (yargsObj.add){
+//             const movie = new Movie(yargsObj.title, yargsObj.actor)
+//             movie.add();
+//             console.log(movie.list());
+//         }else if (yargsObj.addMore) {
+//             const movie1 = new Movie(yargsObj.title, yargsObj.actor)
+//             const movie2 = new Movie(yargsObj.title, yargsObj.actor)
+//             movie1.add();
+//             movie2.add();
+//             console.log(movie1.list());
+//         }else{
+//             console.log("not a recofnised command")
+//         }
+//     }
+// }
+
+// app(yargsObj);
